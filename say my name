@@ -1,0 +1,7 @@
+prompt("what is your name? ")
+var yourname = prompt("what is your name? ")
+alert("Hi, " + yourname);
+prompt("How many times do you want it printed?")
+var times = prompt("How many times do you want it printed?")
+for (var n = 1 ; n <= times ; n++ ) {}
+    document.write( n + " " + yourname);
